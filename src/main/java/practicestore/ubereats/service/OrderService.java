@@ -13,11 +13,9 @@ import practicestore.ubereats.entity.Order;
 @Service
 public class OrderService {
     private final OrderRepository orderRepository;
-    private final UserRepository userRepository;
 
-    public OrderService(OrderRepository orderRepository, UserRepository userRepository) {
+    public OrderService(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
-        this.userRepository = userRepository;
     }
 
     public List<OrderDTO> getOrders(Long userId) {

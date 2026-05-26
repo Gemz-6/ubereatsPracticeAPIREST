@@ -9,15 +9,15 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "order")
+@Table(name = "user_order")
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long orderId;
-    private String userId;
-    private float total;
+    private long userId;
+    private double total;
     private String status;
 
 }

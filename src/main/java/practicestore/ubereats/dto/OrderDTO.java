@@ -15,6 +15,6 @@ public class OrderDTO {
     private long userId;
     private String name;
     private List<ItemDto> items;
-    private float total;
+    private double total;
     private String status;
 }

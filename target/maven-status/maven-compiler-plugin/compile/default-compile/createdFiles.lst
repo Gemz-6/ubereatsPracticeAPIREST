@@ -1,0 +1,14 @@
+practicestore\ubereats\UbereatsApplication.class
+practicestore\ubereats\dto\UserDTO.class
+practicestore\ubereats\controller\UserController.class
+practicestore\ubereats\service\OrderService.class
+practicestore\ubereats\dto\ResponseDTO.class
+practicestore\ubereats\controller\OrdersController.class
+practicestore\ubereats\entity\Item_Order.class
+practicestore\ubereats\repository\UserRepository.class
+practicestore\ubereats\dto\ItemDto.class
+practicestore\ubereats\dto\OrderDTO.class
+practicestore\ubereats\entity\User.class
+practicestore\ubereats\entity\Item.class
+practicestore\ubereats\entity\Order.class
+practicestore\ubereats\repository\OrderRepository.class

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-UbereatsApplication<ubereats>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "practicestore.ubereats.UbereatsApplication",
+            "projectName": "ubereats",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

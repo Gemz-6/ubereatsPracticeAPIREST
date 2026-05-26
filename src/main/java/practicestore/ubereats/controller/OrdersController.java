@@ -22,7 +22,7 @@ public class OrdersController {
     }
 
     @GetMapping("/")
-    public List<OrderDTO> getMethodName(@RequestParam Long userId) {
+    public List<OrderDTO> getOrderDTOs(@RequestParam Long userId) {
         return orderService.getOrders(userId);
     }
 
